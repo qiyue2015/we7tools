@@ -1,6 +1,7 @@
 {
   "name": "lnapp/we7tools",
   "description": "蓝牛模块开发脚手架",
+  "license": "MIT License",
   "authors": [
     {
       "name": "白开水浇花",
