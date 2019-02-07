@@ -1,0 +1,17 @@
+{
+  "name": "lnapp/we7tools",
+  "description": "蓝牛模块开发脚手架",
+  "authors": [
+    {
+      "name": "白开水浇花",
+      "email": "fegnqiyue@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Hello\\": "src/"
+    }
+  }
+}
