@@ -14,7 +14,7 @@ class Util
      * @param number $errno 错误编号
      * @param string $message 错误信息
      */
-    public static function send_error($errno, $message = '')
+    public static function SendError($errno, $message = '')
     {
         @header('Content-type:application/json');
         if (is_array($errno) && array_key_exists('errno', $errno)) {
@@ -35,7 +35,7 @@ class Util
      * API输出正确信息
      * @param array $data
      */
-    public static function send_result($data = array())
+    public static function SendResult($data = array())
     {
         @header('Content-type:application/json');
         $obj['errno'] = 0;

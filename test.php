@@ -7,8 +7,8 @@
 require_once __DIR__ . '/vendor/autoload.php';
 use LnApp\Util;
 
-// $data = SayHello::send_error(-1, 'xxxx');
+// $data = Util::SendError(-1, 'xxxx');
 // var_dump($data);
 
-// $data = SayHello::send_result(['username' => '叉叉', 'user_id' => 1000]);
+// $data = Util::SendResult(['username' => '叉叉', 'user_id' => 1000]);
 // var_dump($data);
