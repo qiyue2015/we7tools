@@ -1,18 +1,18 @@
 {
-  "name": "lnapp/we7tools",
-  "description": "蓝牛模块开发脚手架",
-  "license": "MIT License",
-  "authors": [
-    {
-      "name": "白开水浇花",
-      "email": "fegnqiyue@gmail.com"
+    "name": "lnapp/tools",
+    "description": "模块开发脚手架",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "白开水浇花",
+            "email": "fegnqiyue@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
     }
-  ],
-  "minimum-stability": "master",
-  "require": {},
-  "autoload": {
-    "psr-4": {
-      "Hello\\": "src/"
-    }
-  }
 }
