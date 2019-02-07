@@ -8,7 +8,7 @@
             "email": "fegnqiyue@gmail.com"
         }
     ],
-    "minimum-stability": "^0.1",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
